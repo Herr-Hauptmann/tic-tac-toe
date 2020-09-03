@@ -1,0 +1,37 @@
+@font-face {
+    font-family: germanGothic;
+    src: url(fonts/Koch_Fraktur.ttf);
+}
+
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/TypewriterRegular.woff);
+}
+
+p {
+    font-family: typewriter;
+}
+
+.naslov {
+    font-family: germanGothic;
+}
+
+.tabela {
+    border-style: solid;
+    border-color: black;
+}
+
+.polje {
+    height: 120px;
+    width: 120px;
+    color: red;
+    font-size: 60px;
+}
+
+.polje:hover {
+    background-color: lightblue;
+}
+
+.popravka-naslova {
+    display: none;
+}
